@@ -1,0 +1,64 @@
+# Project information
+site_name: '云米 UI'
+site_description: '云米 UI'
+site_author: '用户体验中心'
+site_url: 'https://viomiui.bitbucket.io'
+
+# Copyright
+copyright: 'Copyright © 2019 Viomi. All rights reserved.'
+
+# Documentation and theme
+# theme: 'material'
+theme:
+  name: null
+  custom_dir: material
+  
+  # Don't include MkDocs' JavaScript
+  include_search_page: false
+  search_index_only: true
+  
+# Default values, taken from mkdocs_theme.yml
+  language: zh
+  direction: ltr
+  feature:
+    tabs: true
+  palette:
+    primary: Cyan
+    accent: Cyan
+  font:
+    text: Roboto
+    code: Roboto Mono
+  logo: 'logo/logo.svg'
+  
+
+# Extensions
+markdown_extensions:
+  - markdown.extensions.admonition
+  - markdown.extensions.codehilite:
+      guess_lang: false
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - markdown.extensions.toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  
+# Page tree
+pages:
+  - Overview: index.md
