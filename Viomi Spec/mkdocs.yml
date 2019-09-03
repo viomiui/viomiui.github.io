@@ -1,8 +1,8 @@
 # Project information
-site_name: '云米 UI'
-site_description: '云米 UI'
+site_name: '云米 UI Design'
+site_description: '云米 UI Design'
 site_author: '用户体验中心'
-site_url: 'https://viomiui.bitbucket.io'
+site_url: 'https://viomiui.github.io'
 
 # Copyright
 copyright: 'Copyright © 2019 Viomi. All rights reserved.'
@@ -62,3 +62,41 @@ markdown_extensions:
 # Page tree
 pages:
   - Overview: index.md
+  
+  - UIKit: 
+    - Viomi UIKit 介绍: UIKit/Introduce.md
+    - Changelog: UIKit/Changelog.md
+    - Color 颜色: UIKit/Elements/Color.md
+    - Text Style 字型: UIKit/Elements/Text Style.md
+    - Bars 栏:
+        - Navigation Bar 导航栏: UIKit/Elements/Bars/Navigation Bar.md
+        - Navigation Tab 导航 Tab: UIKit/Elements/Bars/Navigation Tab.md
+        - Notice Bar 提示栏: UIKit/Elements/Bars/Notice Bar.md
+        - Tab Bar 选项卡栏: UIKit/Elements/Bars/Tab Bar.md
+        - Search Bar 搜索框: UIKit/Elements/Bars/Search Bar.md
+        - Settlement Bar 结算栏: UIKit/Elements/Bars/Settlement Bar.md
+        - Goods Action Bar 商品栏: UIKit/Elements/Bars/Goods Action Bar.md
+    - Table Views 列表视图:
+        - Cell 列表: UIKit/Elements/Table Views/Cell.md
+        - Text Field 输入框: UIKit/Elements/Table Views/Text Field.md
+        - Text Area 输入区域: UIKit/Elements/Table Views/Text Area.md
+        - Buttons 列表按钮: UIKit/Elements/Table Views/Buttons.md
+    - Views 视图:
+        - Alert 提醒弹窗: UIKit/Elements/Views/Alert.md
+        - Action Sheet 操作弹窗: UIKit/Elements/Views/Action Sheet.md
+        - Picker 选择器: UIKit/Elements/Views/Picker.md
+        - Popup 弹窗: UIKit/Elements/Views/Popup.md
+        - Share Sheet 分享弹窗: UIKit/Elements/Views/Share Sheet.md
+        - Initialization 初始化: UIKit/Elements/Views/Initialization.md
+        - Toast 消息提示: UIKit/Elements/Views/Toast.md
+        - Empty Page 空页面: UIKit/Elements/Views/Empty Page.md
+        - RN 插件弹窗: UIKit/Elements/Views/RN.md
+    - RN 插件:
+        - Information 信息层: UIKit/Elements/RN/Information.md 
+        - Action 操作层: UIKit/Elements/RN/Action.md
+    - Control 控制:
+        - Segmented Control 分段控制: UIKit/Elements/Control/Segmented Control.md
+        - Filter 筛选器: UIKit/Elements/Control/Filter.md
+        - Buttons 按钮: UIKit/Elements/Control/Buttons.md
+    - Download 下载: UIKit/Download/Download.md
+    
