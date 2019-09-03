@@ -1107,7 +1107,7 @@
         }, 
         {
             "location": "/UIKit/Download/Download/", 
-            "text": "Download \u4e0b\u8f7d\n\n\nSketch", 
+            "text": "Download \u4e0b\u8f7d\n\n\n\u4e0b\u8f7d\u7ec4\u4ef6\u5e93\n\n\n\n\nSketch\n (Sketch 57.0+)\n\n\nAxure\n ( Axure 8.0+)", 
             "title": "Download \u4e0b\u8f7d"
         }, 
         {
@@ -1116,9 +1116,9 @@
             "title": "Download \u4e0b\u8f7d"
         }, 
         {
-            "location": "/UIKit/Download/Download/#sketch", 
-            "text": "", 
-            "title": "Sketch"
+            "location": "/UIKit/Download/Download/#_1", 
+            "text": "Sketch  (Sketch 57.0+)  Axure  ( Axure 8.0+)", 
+            "title": "\u4e0b\u8f7d\u7ec4\u4ef6\u5e93"
         }
     ]
 }
